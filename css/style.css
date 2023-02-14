@@ -209,6 +209,32 @@ main {
     margin: 10px 0 0;
 }
 
+.alterar {
+    margin: 2px;
+    /* width: 200px; */
+    text-transform: uppercase;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.alterar:hover {
+    background: var(--main-preto);
+    color: var(--main-branco);
+    cursor: pointer;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+   cursor: pointer; 
+   
+}
+
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
